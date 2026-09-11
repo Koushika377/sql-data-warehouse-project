@@ -1,11 +1,7 @@
 /*
-======================================================================
 DDL Script: Create Silver Tables
-======================================================================
 This Script creates tables in the silver schema, dropping existing 
 tables if they already exist.
-Run this script to redefine the DDL structure of 'silver' Tables
-======================================================================
 */
 
 

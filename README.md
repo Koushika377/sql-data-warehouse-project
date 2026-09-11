@@ -41,6 +41,8 @@ The Gold layer follows a **star schema**, consisting of:
 - **Dimension tables:** Customer and product information
 - **Fact table:** Sales transactions and business measures
 
+---
+
 ## Tools & Technologies
 - SQL Server
 - T-SQL
@@ -48,6 +50,46 @@ The Gold layer follows a **star schema**, consisting of:
 - Draw.io
 - GitHub
 
-## Project Structure
+---
 
+## Project Workflow
 ```text
+Source CSV Files
+       ↓
+Bronze Layer
+(Raw Data)
+       ↓
+Silver Layer
+(Cleaned & Transformed Data)
+       ↓
+Gold Layer
+(Business-Ready Data)
+       ↓
+Analytics & Reporting
+```
+
+---
+
+## Project Structure
+```text
+Data-Warehouse-and-Analytics-Project/
+│
+├── datasets/
+│
+├── docs/
+│   ├── data_architecture.png
+│   ├── data_flow.png
+│   ├── data_integration.png
+│   └── data_model.png
+│
+├── scripts/
+│   ├── bronze/
+│   ├── silver/
+│   └── gold/
+│
+├── tests/
+│
+├── .gitignore
+├── LICENSE
+└── README.md
+```
